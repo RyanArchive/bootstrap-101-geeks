@@ -3,6 +3,14 @@
     font-size: 14px;
 }
 
-.navigation {
+nav ul li {
     align-items: center;
+}
+
+.r-circle {
+    align-items: center;
+    background-color: #F5F4F8;
+    height: 40px;
+    justify-content: center;
+    width: 40px;
 }

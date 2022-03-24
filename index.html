@@ -18,7 +18,8 @@
 </head>
 <body>
 
-	<div class="navigation container-fluid d-flex p-2 ps-3">
+	<!--
+	<div class="navigation container-fluid d-flex p-2 ps-3 position-relative">
 		<img src="src/image/logo.svg" class="pe-4">
 		<div class="d-inline-block ps-2 pe-3">
 			Browse&ensp;
@@ -41,12 +42,79 @@
 		</div>
 		<div class="position-relative">
 			<input type="text" class="ms-3 border rounded p-3 ps-5" placeholder="Search Courses">
-			<div class="d-inline-block position-absolute top-50 start-0 ms-5 translate-middle">
+			<div class="d-inline-block position-absolute top-50 start-0 translate-middle ms-5">
 				<i class="fas fa-search"></i>
 			</div>
 		</div>
+		<div class="position-absolute top-50 end-0 translate-middle me-1">
+			<div class="notification border border-0 rounded-circle d-flex">
+				<i class="far fa-bell"></i>
+			</div>
+		</div>
 	</div>
+	-->
+
+	<nav class="navbar navbar-expand-lg navbar-light">
+		<div class="container-fluid px-1 ps-3">
+			<a class="navbar-brand pe-4 me-auto" href="#">
+				<img src="src/image/logo.svg">
+			</a>
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav">
+					<li class="nav-item d-flex pe-2">
+						<a class="nav-link active" aria-current="page" href="#">
+							Browse&ensp;
+							<i class="fas fa-angle-down"></i>
+						</a>
+					</li>
+					<li class="nav-item d-flex pe-1">
+						<a class="nav-link active" aria-current="page" href="#">
+							Landings&ensp;
+							<i class="fas fa-angle-down"></i>
+						</a>
+					</li>
+					<li class="nav-item d-flex pe-1">
+						<a class="nav-link active" aria-current="page" href="#">
+							Pages&ensp;
+							<i class="fas fa-angle-down"></i>
+						</a>
+					</li>
+					<li class="nav-item d-flex pe-2">
+						<a class="nav-link active" aria-current="page" href="#">
+							Accounts&ensp;
+							<i class="fas fa-angle-down"></i>
+						</a>
+					</li>
+					<li class="nav-item d-flex pe-4">
+						<a class="nav-link active" aria-current="page" href="#">
+							<i class="fas fa-ellipsis-h"></i>
+						</a>
+					</li>
+					<li class="nav-item position-relative">
+						<input type="text" class="border rounded p-3 ps-5 w-100" placeholder="Search Courses">
+						<div class="d-inline-block position-absolute top-50 start-0 translate-middle ms-4">
+							<i class="fas fa-search"></i>
+						</div>
+					</li>
+				</ul>
+			</div>
+			<div class="d-flex me-3">
+				<div class="r-circle border border-0 rounded-circle d-flex">
+					<i class="far fa-bell"></i>
+				</div>
+				<div class="r-circle border border-0 rounded-circle d-flex ms-3 overflow-hidden">
+					<img src="src/image/avatar.jpg" class="h-100 w-100">
+				</div>
+			</div>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+		</div>
+	</nav>
 	<div class="container-fluid p-3" style="background-color: #754FFE; height: 400px;"></div>
-	
+
+	<!-- Bootstrap JS -->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
 </body>
 </html>
