@@ -45,6 +45,10 @@
     border-radius: 9px;
 }
 
+.cursor-pointer {
+    cursor: pointer;
+}
+
 /* */
 
 nav .r-circle {
